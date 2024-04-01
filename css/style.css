@@ -1,0 +1,185 @@
+/* Индекс, име и презиме */
+/* ID_NO, Name and Surname */
+
+
+/* Your code goes here */
+body {
+    width:1024px;
+    margin:auto;
+    font-family: 'Abel',sans-serif;
+}
+h1,h2 {
+    font-family:Satisfy;
+}
+#header{
+    background-image: url("../images/img05.png");
+    height:157px;
+    width:1000px;
+}
+#navigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin:10px;
+}
+#navigation ul {
+    position: relative;
+    left:460px;
+    top:-40px;
+}
+#navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:gray;
+font-family: 'Oswald', sans-serif
+}
+#navigation a:hover {
+    color:black;
+}
+#logo h1 {
+    position: relative;
+    top:20px;
+    left:50px;
+}
+#logo a {
+    text-decoration: none;
+    color:black;
+    text-transform: lowercase;
+}
+#fbox1 {
+    width:300px;
+    position: relative;
+    top:25px;
+}
+#fbox2 {
+    width:300px;
+    position: relative;
+    left:360px;
+    top:-393px;
+}
+#fbox3 {
+    width:300px;
+    position: relative;
+    top:-800px;
+    left:730px;
+}
+#fbox3 h1 {
+    display: none;
+
+}
+.style1 li:first-child{
+    display: none;
+}
+
+#page {
+    background-color: #E0E0E0;
+    position: relative;
+    top:-750px;
+    height: 550px;
+}
+#sidebar {
+    width:300px;
+    position: relative;
+    top:-376px;
+    left:-300px;
+}
+#content
+{
+    width:610px;
+    position: relative;
+    left:400px;
+}
+#content a {
+    color:gray;
+}
+#footer {
+    background-image: url("../images/img01.png");
+    position: relative;
+    top:-400px;
+    height: 100px;
+}
+#footer p:first-of-type{
+    display: none;
+}
+#fbox1 p:nth-child(5)
+{
+    display:none;
+}
+
+.style2 li {
+    list-style-type: none;
+    border-bottom: 2px dotted gray;
+    position: relative;
+    left:-40px;
+    top:-40px;
+    margin:10px;
+}
+.style2 a {
+    color:gray;
+}
+.button-style {
+    background-image: url("../images/img01.png");
+    width:110px;
+    height: 30px;
+    border-radius:5px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.button-style a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:gray;
+
+}
+#fbox2 p:first-of-type {
+    background-image: url("../images/img05.jpg");
+    height: 150px;
+}
+.style1 li {
+    list-style-type: none;
+    border-bottom: 2px dashed gray;
+    position: relative;
+    left:-36px;
+}
+.style1 a {
+    text-decoration: none;
+    color:gray;
+}
+.style3 p {
+    position: relative;
+    top:-60px;
+}
+.style3 li:first-child{
+    list-style-image: url("../images/img02.jpg");
+    list-style-position: outside;
+}
+.style3 li:nth-child(2)
+{
+    list-style-image: url("../images/img03.jpg");
+}
+.style3 li:last-child{
+    list-style-image: url("../images/img04.jpg");
+}
+.style2 a:hover{
+    text-decoration: none;
+}
+.posted {
+    font-size:12px;
+}
+#footer p {
+    text-align:center;
+    color:gray;
+    text-transform: uppercase;
+    position: relative;
+    top:40px;
+}
+#footer a {
+    color:gray;
+}
+#fbox1 h2, #fbox2 h2, #fbox3 h2{
+    color:BurlyWood;
+}
+#fbox1 span, #fbox2 span, #fbox3 span {
+    color:gray;
+}
+
+
